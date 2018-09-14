@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>What Movie?</title>
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link href="grid.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Source+Sans+Pro" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+  <header role="banner">
+      <div class="container">
+        <div class="quiz-title row">
+          <h1>Film Plots Explained Badly</h1>
+          <p>(guess the film from the poorly described plot)</p>
+        </div>
+        <div class="quiz-data row">
+          <div><p class="quiz-data__question col-4">Question <span class="question-number">1</span> of 10</p></div>
+          <div class="quiz-data__feedback col-4"></div>
+          <div><p class="quiz-data__score col-4">Score: <span class="score">0</span>/10</p></div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main" class="row">
+
+        <form role="form" class="col-12 question">
+          <fieldset>
+          <label for="start-button">
+          <button id="start-button" role="button" name="start-button">Begin</button>
+          </fieldset>
+        </form>
+
+    </main>
+
+    <footer role="contentinfo">
+      <p>&copy;2018 Will Nixon</p>
+    </footer>
+
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
